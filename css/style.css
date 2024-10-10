@@ -1,0 +1,32 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  .card {
+    max-height: 30rem;
+    overflow: hidden; /*Para ocultar el overflow */
+    display: flex; 
+    flex-direction: column; /* Mantener la estructura en columnas */
+}
+
+.card-img-top {
+  height: 10rem; /* Para que las imágenes tengan todas la misma altura */
+  object-fit: cover; /* Para no estirar la imagen */
+}
+
+.card-body {
+  flex-grow: 1; /* Para que lo que sobre se ajuste a la caja */
+  display: flex;
+  flex-direction: column;
+}
+
+.conenedor-descripcion {
+  max-height: 8rem;
+  overflow-y: auto; /* Scroll solo dentro del texto */
+}
+
+  .card-text { 
+    word-break: break-word;
+    width: 100%; }
+
+
