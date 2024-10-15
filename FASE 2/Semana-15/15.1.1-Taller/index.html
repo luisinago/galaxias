@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabrielle Arruda's: Seasonal Color Analysis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="https://gabriellearruda.com/seasonal-color-analysis-what-season-are-you/"><img
+          src="img/ga-logo-2024-350.png" alt="logo Gabrielle Arruda" style="max-height: 3rem;"></a>
+
+      <!-- Menú mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse d-md-flex flex-md-column flex-lg-row" id="navbarSupportedContent">
+        <form class="order-lg-last order-first" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">12 Seasonal Colors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Determine yours!</a>
+          </li>
+          <li class="nav-item d-lg-none" id="boton">
+            <a class="nav-link">Palettes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1 class="mt-5 d-none d-lg-flex justify-content-center">Seasonal Color Analysis</h1>
+
+    <!-- Carrusel -->
+    <div class="carousel slide d-none d-lg-flex mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <p class="carousel-item active" data-bs-interval="2000">Discover your seasonal color palette to enhance your
+          natural beauty.</p>
+        <p class="carousel-item" data-bs-interval="2000">Find out which colors harmonize with your skin, eyes, and hair.
+        </p>
+        <p class="carousel-item" data-bs-interval="2000">Embrace your season's color palette for a cohesive and stylish
+          look.</p>
+      </div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <!-- Opciones -->
+        <div id="opciones" class="d-none d-lg-flex flex-column col-xs col-lg-3 square-box align-items-center">
+          <div class="card text-decoration-underline w-100 p-3">Winter</div>
+          <div class="card text-decoration-underline w-100 p-3">Spring</div>
+          <div class="card text-decoration-underline w-100 p-3">Summer</div>
+          <div class="card text-decoration-underline w-100 p-3">Autumn</div>
+        </div>
+
+        <!-- Son en total 9 columnas-->
+        <div class="col-md-9">
+          <!-- Le pedimos que las muestre en formato row, las columnas que dividiremos abajo pasarán a formar rows cuando
+           se sobrepase determinado tamaño (Va "empujando" las columnas)-->
+          <div class="row bg-light">
+            <!-- Cada columna tiene un tamaño según el dispositivo-->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                Seasonal color analysis is a method that categorizes individuals into distinct color palettes based on
+                their natural features. It was originally developed by artists and color theorists to help individuals
+                determine which colors best complement their skin tone, eye color, and hair shade.
+              </p>
+            </div>
+
+            <!-- Segunda columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                The system divides colors into four primary seasons—Winter, Spring, Summer, and Autumn—and further
+                refines them into 12 sub-categories. These categories help you identify colors that enhance your natural
+                beauty and avoid shades that might dull or overwhelm your features.
+              </p>
+            </div>
+
+            <!-- Tercera columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                The analysis is based on three key factors: undertone (warm or cool), intensity (soft or bright), and
+                contrast (high or low). These characteristics combine to form your unique color profile.
+              </p>
+            </div>
+
+            <!-- Cuarta columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                For example, if you have a cool undertone with high contrast between your skin, hair, and eyes, you
+                might belong to the Winter category. In contrast, if you have warm undertones and lower contrast, you
+                could be classified under Autumn.
+              </p>
+            </div>
+
+            <!-- Quinta columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                Knowing your season helps you create a cohesive wardrobe and makeup look, ensuring every piece you
+                choose enhances your appearance.
+              </p>
+            </div>
+
+            <!-- Sexta columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                Once you've determined your seasonal palette, you can start incorporating your best colors into every
+                aspect of your style—clothing, accessories, makeup, and even hair color choices.
+              </p>
+            </div>
+
+            <!-- Séptima columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                For example, if you're a Winter, you'll want to focus on cool, bold colors like black, white, and jewel
+                tones. Avoid earth tones like orange or brown, as they might clash with your cool undertones.
+              </p>
+            </div>
+
+            <!-- Octava columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                If you're a Spring, embrace warm and light colors like coral, peach, and cream. Avoid overly dark or
+                muted shades, as they can make your complexion appear washed out.
+              </p>
+            </div>
+
+            <!-- Novena columna de texto -->
+            <div class="col-lg-4 col-md-6 col-12 mb-2">
+              <p>
+                Having your personal palette gives you confidence in knowing that every outfit or makeup choice is
+                tailored to bring out the best version of you.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- Incluyendo los scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+    <!-- Script para evento clic-->
+    <script>
+      let botonOpciones = document.getElementById("boton");
+
+      botonOpciones.addEventListener("click", () =>{
+        let opciones = document.getElementById("opciones")
+        
+        opciones.classList.toggle("d-none");
+      })
+     </script>
+
+</html>
