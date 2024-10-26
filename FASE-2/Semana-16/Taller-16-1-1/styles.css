@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body {
+        background-color: f1f1f1;
+      }
+
+
+/* Clase que se agrega para mostrar o no los filtrados */
+.filtro {
+        display: none;
+    }
